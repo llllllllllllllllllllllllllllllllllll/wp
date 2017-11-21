@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Clean Portfolio\n"
 "Report-Msgid-Bugs-To: https://catchthemes.com/contact-us/\n"
-"POT-Creation-Date: 2017-11-20 13:32+0545\n"
+"POT-Creation-Date: 2017-11-20 17:41+0545\n"
 "PO-Revision-Date: 2016-12-07 00:45-0500\n"
 "Last-Translator: Catch Themes <info@catchthemes.com>\n"
 "Language-Team: Catch Themes <info@catchthemes.com>\n"
@@ -957,7 +957,7 @@ msgstr ""
 #: ../inc/customizer/theme-options.php:42
 #: ../template-parts/header/header-media.php:15
 msgid ""
-"Edit this from Appearance -> Customize -> Header Media -> Header Media Text."
+"Edit this from Appearance - Customize - Header Media - Header Media Text."
 msgstr ""
 
 #: ../inc/customizer/theme-options.php:49

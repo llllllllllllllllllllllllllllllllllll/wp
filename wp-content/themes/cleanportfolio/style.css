@@ -4,17 +4,11 @@ Theme URI: https://catchthemes.com/themes/clean-portfolio/
 Author: Catch Themes
 Author URI: https://catchthemes.com/
 Description: Clean Portfolio - A Free Portfolio WordPress Theme specially designed to unleash the creativity in you. Clean Portfolio is super clean and represents simplicity and clarity. It is completely responsive, minimalistic and provides you with crucial features that is needed to create an elegant-looking website of any kind. Its vast range of features make it easier for the creative people like photographers, bloggers, designers, illustrators and more to showcase their experience and expertise to the world in large. Clean Portfolio comes with features fit for promoting products and services, ability to create a professional portfolio, social media integration and much more. This free multipurpose portfolio WordPress theme ensures your website is simple, clean and user-friendly no matter what kind your website is. Clean Portfolio is impressive, aesthetically pleasing, and simple, yet feature-rich multipurpose WordPress theme that will put your work on the limelight. The theme fits perfectly for any kind of website, be it a blog, portfolio, or a corporate website. This theme is translation ready. For more details, check out the Theme Instructions at https://catchthemes.com/theme-instructions/clean-portfolio/ and Support forum at https://catchthemes.com/support-forum/forum/clean-portfolio-free/.
-Version: 1.0
+Version: 1.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: cleanportfolio
 Tags: one-column, flexible-header, custom-background, custom-header, custom-menu, custom-logo, featured-image-header, featured-images, footer-widgets, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, blog, photography, portfolio
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-
-Clean Portfolio is based on Underscores http://underscores.me/, (C) 2012-2017 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.io/normalize.css/
@@ -1672,7 +1666,7 @@ html {
 	overflow: hidden;
 	padding: 15px 17px;
 	position: absolute;
-	top: 200px;
+	bottom: 100px;
 	left: 48%;
 	-webkit-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;
 	-moz-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;
@@ -1822,6 +1816,7 @@ html {
 	text-align: center;
 }
 
+.widget .entry-meta,
 .comments-area .entry-meta {
 	text-align: left;
 }
@@ -2338,10 +2333,8 @@ blockquote > :last-child,
 
 .hero-content-wrapper .entry-container {
 	clear: both;
-	margin: 0 37px;
 	padding: 31px 37px;
 	position: relative;
-	top: -37px;
 }
 
 .hero-content-wrapper .entry-content {
@@ -3421,7 +3414,6 @@ figure {
 
 	.hero-content-wrapper .entry-container {
 		padding: 56px 49px;
-
 	}
 
 	.hero-content-wrapper .entry-title {
@@ -3574,7 +3566,7 @@ figure {
 	.custom-header-media .wp-custom-header-video-button { /* Specificity prevents .color-dark button overrides */
 		font-size: 32px;
 		font-size: 2rem;
-		padding: 26px 28px;
+		padding: 16px 18px;
 	}
 
 	button,
@@ -3583,11 +3575,6 @@ figure {
 	input[type="reset"],
 	input[type="submit"] {
 		padding: 18px 32px;
-	}
-
-	.custom-header-content,
-	#feature-slider .entry-container {
-		padding: 200px 145px;
 	}
 
 	.hero-content-wrapper .entry-container {
@@ -3610,10 +3597,6 @@ figure {
 
 	#feature-slider .entry-container {
 		padding: 300px 144px;
-	}
-
-	.custom-header-media .wp-custom-header-video-button { /* Specificity prevents .color-dark button overrides */
-		top: 245px;
 	}
 
 	.layout-four .section-content-wrap .hentry,
@@ -3894,6 +3877,10 @@ figure {
 		padding: 60px 57px;
 	}
 
+	.hero-content-wrapper .entry-container {
+		padding: 100px 80px;
+	}
+
 	.first-post .entry-header,
 	.first-post .entry-summary,
 	.first-post .entry-content {
@@ -3959,10 +3946,6 @@ figure {
 	.two-columns.content-right .site-content .widget-area {
 		float: left;
 	}
-
-	.two-columns .entry-container {
-		width: 100%;
-	}
 }
 
 /*--------------------------------------------------------------
@@ -4017,7 +4000,7 @@ figure {
 	}
 
 	.hero-content-wrapper .entry-container {
-		padding: 90px 80px;
+		padding: 120px 100px;
 	}
 
 	/* Font Size */
@@ -4627,4 +4610,3 @@ input[type="submit"],
 		padding: 0;
 	}
 }
-

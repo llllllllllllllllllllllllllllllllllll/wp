@@ -6,6 +6,11 @@ Tags: one-column, flexible-header, custom-background, custom-header, custom-menu
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
+CleanPortfolio WordPress Theme, Copyright 2017 Catchthemes.com
+CleanPortfolio is distributed under the terms of the GNU General Public License v2
+
+CleanPortfolio is based on Underscores http://underscores.me/, (C) 2012-2017 Automattic, Inc.
+
 == Description ==
 
 Clean Portfolio - A Free Portfolio WordPress Theme specially designed to unleash the creativity in you. Clean Portfolio is super clean and represents simplicity and clarity. It is completely responsive, minimalistic and provides you with crucial features that is needed to create an elegant-looking website of any kind. Its vast range of features make it easier for the creative people like photographers, bloggers, designers, illustrators and more to showcase their experience and expertise to the world in large. Clean Portfolio comes with features fit for promoting products and services, ability to create a professional portfolio, social media integration and much more. This free multipurpose portfolio WordPress theme ensures your website is simple, clean and user-friendly no matter what kind your website is. Clean Portfolio is impressive, aesthetically pleasing, and simple, yet feature-rich multipurpose WordPress theme that will put your work on the limelight. The theme fits perfectly for any kind of website, be it a blog, portfolio, or a corporate website. This theme is translation ready. For more details, check out the Theme Instructions at https://catchthemes.com/theme-instructions/clean-portfolio/ and Support forum at https://catchthemes.com/support-forum/forum/clean-portfolio-free/.
@@ -87,6 +92,12 @@ If you are using Classic Menu, make sure you just add few menus so that the menu
 
 == Changelog ==
 
+= 1.1 (Released: November 20, 2017) =
+* Added: Copyright information in readme file
+* Bug Fixed: Hero content mobile design issue
+* Updated: Portfolio, Testimonial and Services disabled by default
+* Updated: Header Media default text
+
 = 1.0 (Released: November 20, 2017) =
 * Bug Fixed: Escaping issues in site-info.php and extras.php
 * Removed: Space in theme name to match with textdomain
@@ -95,7 +106,7 @@ If you are using Classic Menu, make sure you just add few menus so that the menu
 * Updated: Featured Slider Images
 
 = 0.5 (Released: November 19, 2017) =
-* Update: Theme's Scroll Up option is disabled if To Top plugin is activated
+* Updated: Theme's Scroll Up option is disabled if To Top plugin is activated
 * Bug Fixed: Homepage/Archive pages not showing sidebar
 
 = 0.4 (Released: November 08, 2017) =

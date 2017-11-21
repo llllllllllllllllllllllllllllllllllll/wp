@@ -156,7 +156,7 @@ function cleanportfolio_get_theme_layout() {
 	} else {
 		$layout = get_theme_mod( 'cleanportfolio_default_layout', 'right-sidebar' );
 
-		if ( ( is_home() && is_front_page() ) || is_archive() ) {
+		if ( is_home() || is_archive() ) {
 			$layout = get_theme_mod( 'cleanportfolio_homepage_archive_layout', 'no-sidebar-full-width' );
 		}
 	}

@@ -7,7 +7,7 @@
 ?>
 
 <?php
-$enable = get_theme_mod( 'cleanportfolio_portfolio_option', 'homepage' );
+$enable = get_theme_mod( 'cleanportfolio_portfolio_option', 'disabled' );
 
 if ( ! cleanportfolio_check_section( $enable ) ) {
 	// Bail if portfolio section is disabled.

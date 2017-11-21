@@ -7,7 +7,7 @@
 ?>
 
 <?php
-$enable = get_theme_mod( 'cleanportfolio_testimonial_option', 'homepage' );
+$enable = get_theme_mod( 'cleanportfolio_testimonial_option', 'disabled' );
 
 if ( ! cleanportfolio_check_section( $enable ) ) {
 	// Bail if featured content is disabled

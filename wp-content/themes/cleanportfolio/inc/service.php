@@ -19,7 +19,7 @@ if ( ! function_exists( 'cleanportfolio_service_display' ) ) :
 		$output = '';
 
 		// get data value from options
-		$enable_content = get_theme_mod( 'cleanportfolio_service_option', 'homepage' );
+		$enable_content = get_theme_mod( 'cleanportfolio_service_option', 'disabled' );
 
 		if ( cleanportfolio_check_section( $enable_content ) ) {
 			$headline       = get_option( 'ect_service_title', esc_html__( 'Services', 'cleanportfolio' ) );

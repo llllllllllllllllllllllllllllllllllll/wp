@@ -44,7 +44,7 @@ function cleanportfolio_service_options( $wp_customize ) {
 
 	cleanportfolio_register_option( $wp_customize, array(
 			'name'              => 'cleanportfolio_service_option',
-			'default'           => 'homepage',
+			'default'           => 'disabled',
 			'sanitize_callback' => 'cleanportfolio_sanitize_select',
 			'active_callback'   => 'cleanportfolio_is_ect_service_active',
 			'choices'           => cleanportfolio_section_visibility_options(),

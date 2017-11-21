@@ -39,7 +39,7 @@ function cleanportfolio_theme_options( $wp_customize ) {
 	$def_header_text = esc_html__( 'This is Header Media Text.', 'cleanportfolio' );
 
 	if ( current_user_can( 'edit_theme_options' ) ) {
-		$def_header_text .= '&nbsp;' . esc_html__( 'Edit this from Appearance -> Customize -> Header Media -> Header Media Text.', 'cleanportfolio' );
+		$def_header_text .= '&nbsp;' . esc_html__( 'Edit this from Appearance - Customize - Header Media - Header Media Text.', 'cleanportfolio' );
 	}
 
 	cleanportfolio_register_option( $wp_customize, array(

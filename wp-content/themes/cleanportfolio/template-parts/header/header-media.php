@@ -12,7 +12,7 @@
 $def_header_text = esc_html__( 'This is Header Media Text.', 'cleanportfolio' );
 
 if ( current_user_can( 'edit_theme_options' ) ) {
-	$def_header_text .= '&nbsp;' . esc_html__( 'Edit this from Appearance -> Customize -> Header Media -> Header Media Text.', 'cleanportfolio' );
+	$def_header_text .= '&nbsp;' . esc_html__( 'Edit this from Appearance - Customize - Header Media - Header Media Text.', 'cleanportfolio' );
 }
 
 $header_media_text = get_theme_mod( 'cleanportfolio_header_media_text', $def_header_text );
