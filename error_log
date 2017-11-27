@@ -1,0 +1,2 @@
+[27-Nov-2017 07:39:49 UTC] PHP Warning:  file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/aleksanderpromva/public_html/wordpress/wp-content/plugins/ninja-forms/includes/Helper.php on line 285
+[27-Nov-2017 07:39:49 UTC] PHP Warning:  file_get_contents(https://ninjaforms.com/): failed to open stream: no suitable wrapper could be found in /home/aleksanderpromva/public_html/wordpress/wp-content/plugins/ninja-forms/includes/Helper.php on line 285
