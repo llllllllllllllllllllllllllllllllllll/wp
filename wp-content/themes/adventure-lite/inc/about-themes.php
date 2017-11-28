@@ -15,7 +15,7 @@ function adventure_lite_mostrar_guide() {
    		   <div class="col-left-area">
 			  <?php esc_attr_e('Theme Information', 'adventure-lite'); ?>
 		   </div>
-          <p><?php esc_attr_e('Adventure Lite WordPress theme can be used for adventure, sports, hiking, trekking, railing, rafting, games, fun, elking, hunting, military, mountain climbing, skiing, surfing and other such adventure sports. Also can be used for tours and travels, camping, hotel, students, summer camps, skating, motels, service industry, and other corporate, business, photography and personal portfolio websites. Is simple, flexible and multipurpose with having multi industry use.','adventure-lite'); ?></p>
+          <p><?php esc_attr_e('Adventure Lite WordPress theme can be used for adventure, sports, hiking, trekking, railing, rafting, games, fun, elking, hunting, military, mountain climbing, skiing, surfing and other such adventure sports. Also can be used for tours and travels, camping, hotel, students, summer camps, skating, motels, service industry, and other corporate, business, photography and personal portfolio websites. Is simple, flexible and multipurpose with having multi industry use. It is compatible with WooCommerce, and other popular plugins. It is also page builder plugin compatible and multilingual plugins compatible as well.','adventure-lite'); ?></p>
 		  <a href="<?php echo ADVENTURE_LITE_SKTTHEMES_PRO_THEME_URL; ?>"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/free-vs-pro.png" alt="" /></a>
 	</div><!-- .col-left -->
 	<div class="col-right">			
